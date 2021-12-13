@@ -1,0 +1,172 @@
+:root{
+    --primary-color:#6495ED;
+    --secondary-color: #00BFFF;
+    --bg-color:#FFFFF0;
+
+
+
+
+}
+
+
+
+
+
+*{ margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
+
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+
+}
+a:hover {
+    color: var(--secondary-color);
+
+}
+
+
+.navigation {  position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+.navigation h1 {
+    color:var(--primary-color);
+    
+}
+.navigation ul{
+    display:flex;
+    gap: 1.9rem;
+}
+.navigation ul li {
+    font-weight: bold;
+}
+
+
+.about-me{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  padding: 100px;
+  margin: 75px;
+  align-items: center;
+
+    
+   
+}
+.about-me h2{ 
+    color:var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.bio {
+    width: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px  #8b8eaf;
+  }
+  
+  
+  
+  .bio p {
+    line-height: 25px;
+    padding: 10px 0;
+  }
+
+
+
+
+
+
+
+  .contact h2 {
+      color: var(--primary-color);
+  }
+
+.contact-title{
+    margin:auto;
+    width:50%;
+    
+    text-align:center;
+    padding: 35px;
+    box-shadow: 0px 2px 15px 2px  #8b8eaf
+}
+
+
+.contact-info{
+    box-shadow: 0px 2px 15px 2px  #8b8eaf;
+    margin-left: 400px;
+    margin-right:400px;
+    padding:25px;
+     width: 60%; 
+    display:flex;
+    gap: 1.9rem;
+    font-weight: bold;
+    
+
+}
+.works-title{  margin:auto;
+    width:50%;
+    color:var(--primary-color);
+  
+    display: flex;
+    padding: 35px;
+    box-shadow: 0px 2px 15px 2px  #8b8eaf;
+
+
+
+}
+.work-title h2{text-align: center;
+}
+
+
+.work{
+    display:grid;
+   
+    grid-auto-rows: auto;
+    grid-gap:50px 50px;
+    padding: 100px;
+    
+
+
+}
+.work h3{ 
+    color:rgb(0, 195, 255);
+    padding:100px;
+    text-align:center;
+    font-size: 200%;
+    font-weight: bold;
+    background-image: url(./future.jpg);
+
+    box-shadow:0px 2px 15px 2px  #8b8eaf ;
+    
+    
+
+}
+
+
+.info{
+    
+    text-align:center;
+
+}
+
+
