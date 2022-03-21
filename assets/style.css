@@ -166,7 +166,28 @@ a:hover {
 .im_1 {
     background-image: url(./Book.jpg);
 }
+.yes {
+    width:60%;
+    height:300px;
+}
+img_2 {
+    background-image:url(./6B7E5455-1508-461C-801D-D1C794D28733.png);
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+.im_2{
 
+    background-image:url(./6B7E5455-1508-461C-801D-D1C794D28733.png);
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    
+     
+
+
+
+}
 .info{
     
     align-items: center;
