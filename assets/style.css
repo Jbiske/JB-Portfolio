@@ -172,7 +172,6 @@ a:hover {
 .contact-title{
     margin:auto;
     width:50%;
-    
     text-align:center;
     padding: 35px;
     box-shadow: 0px 2px 15px 2px  #8b8eaf
@@ -180,23 +179,25 @@ a:hover {
 
 
 .contact-info{
-    box-shadow: 0px 2px 15px 2px  #8b8eaf;
-    margin-left: 400px;
-    margin-right:400px;
-    padding:25px;
-     width: 60%; 
-    display:flex;
-    gap: 1.9rem;
+    margin:auto;
     font-weight: bold;
-    
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 2px 15px 2px  #8b8eaf;
+
 
 }
+contact-info a {display:flex;
+    padding:20px;
+
+}
+
 .works-title{ 
   
    margin:auto;
     width:50%;
    
-    display: flex;
+   
     padding: 35px;
   align-items: center;
    box-shadow: 0px 2px 15px 2px  #8b8eaf;
