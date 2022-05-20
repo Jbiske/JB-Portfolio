@@ -7,14 +7,32 @@
 
 
 }
+html{
+    
+}
 
 *{ margin:0;
 padding:0;
 box-sizing:border-box;
+scrollbar-width: normal;
+scrollbar-color: var(--primary-color);
 
 }
 
+::-webkit-scrollbar{
+    width: 8.5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
 
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--secondary-color)
+
+}
+::-webkit-scrollbar-track{
+    background-color: var(--bg-color);
+}
 
 ul{
     list-style-type:none;
@@ -179,9 +197,12 @@ a:hover {
 
 
 .contact-info{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     margin:auto;
     font-weight: bold;
-    text-align: center;
+    
     padding: 15px;
     box-shadow: 0px 2px 15px 2px  #8b8eaf;
 
