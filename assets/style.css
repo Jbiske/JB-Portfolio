@@ -287,6 +287,12 @@ img_2 {
     height: 300px;
     object-fit:cover;
 }
+.im_4{
+    background-image:url(./Great.png);
+    width: 100%;
+height: 300px;
+object-fit: cover;
+}
 .info{
     
     align-items: center;
